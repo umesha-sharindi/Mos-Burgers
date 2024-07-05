@@ -1,0 +1,170 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    background-image: url('images/background.jpg'); /* Replace with your image path */
+    background-size: cover;
+    background-position: center;
+}
+
+header, footer {
+    background-color: rgba(0, 0, 0, 0.8); /* Semi-transparent black background */
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.menu-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 20px auto;
+    max-width: 1000px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.menu-category {
+    margin-bottom: 20px;
+}
+
+.menu-item {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 250px;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.menu-item h4 {
+    margin: 10px 0;
+}
+
+.menu-item p, .menu-item span {
+    font-size: 14px;
+}
+
+.discount-tag {
+    color: red;
+    font-weight: bold;
+}
+
+.expiration-tag {
+    color: red;
+}
+
+#cart {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.cart-items {
+    list-style-type: square;
+    padding: 0;
+}
+
+.cart-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+#total {
+    margin-top: 10px;
+}
+
+#total p {
+    text-align: right;
+}
+
+#total-amount {
+    font-weight: bold;
+}
+
+form {
+    margin-top: 10px;
+}
+
+#customers {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+.customer-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.customer-item {
+    margin-bottom: 5px;
+}
+
+#add-customer-form {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+}
+
+#add-customer-form label {
+    margin-right: 10px;
+}
+
+
+.modal {
+    display: block;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.modal-content {
+    background-color:black;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: aqua;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    position: relative;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: red;
+    text-decoration: none;
+}
